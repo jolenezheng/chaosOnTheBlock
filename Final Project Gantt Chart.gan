@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-12-10" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.5" locale="en_US">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Name" width="166" order="0"/>
+        <field id="tpd4" name="Begin date" width="64" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <option id="color.recent"><![CDATA[#66ccff #66ff66 #3399ff #ffff99 #eeeeee #99ff99 #00ff00 #ffcc00 #ff6666 #ff0033]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Planning Stage" color="#ff0033" meeting="false" start="2017-12-14" duration="4" complete="0" thirdDate="2017-12-14" thirdDate-constraint="1" expand="true">
+            <notes><![CDATA[These stages are for planning and setting the requirements/timelines of the project.]]></notes>
+            <task id="3" name="Choosing Game" color="#ff6666" meeting="false" start="2017-12-14" duration="2" complete="0" expand="true">
+                <notes><![CDATA[We'll work on coming up with a game idea, and discuss general game functions needed for it to meet the requirements (inheritance, OOP, etc.)
+
+Once a game is chosen, we will ask you to approve it. If approved, we will further plan out the specific game functions needed, and submit a proposal. If not approved, we will rethink a new game, or add functions needed to the previous game, and get it re-approved.]]></notes>
+            </task>
+            <task id="10" name="Planning Game" color="#ff6666" meeting="false" start="2017-12-18" duration="2" complete="0" expand="true">
+                <notes><![CDATA[In this step, we will work through the logistics of the game. We will divide up the roles, and discuss timelines we both agree on.]]></notes>
+            </task>
+            <task id="16" name="Collaborting" color="#ff6666" meeting="false" start="2017-12-19" duration="1" complete="0" expand="true">
+                <notes><![CDATA[We will create a google drive folder where we will share our code in the future. We will work on a document that contains the rules of the game, and the different functions needed so we can refer back to this when needed.]]></notes>
+            </task>
+        </task>
+        <task id="18" name="Design" color="#ffcc00" meeting="false" start="2017-12-20" duration="15" complete="0" thirdDate="2017-12-20" thirdDate-constraint="1" expand="true">
+            <task id="29" name="Create Game Display" color="#ffff99" meeting="false" start="2017-12-20" duration="3" complete="0" expand="true">
+                <notes><![CDATA[We will both work on creating the game board, and pieces needed. We will set up Java Frames, panels, labels. Jessica will work on designing a home page, and pieces, and Jolene will work on getting it to display on screen.]]></notes>
+            </task>
+            <task id="31" name="Implement GUI" color="#ffff99" meeting="false" start="2017-12-22" duration="4" complete="0" expand="true">
+                <notes><![CDATA[We will both work on implementing GUI to the game board. We will both work on mouse listeners and getting the position of the mouse click, and keyboard keys needed for game play. Jessica will make an instructions page, and Jolene will implement the page into the game, with mouse clicks.]]></notes>
+            </task>
+            <task id="48" name="Combine Code" color="#ffff99" meeting="false" start="2018-01-08" duration="2" complete="0" expand="true">
+                <notes><![CDATA[We will work on combining our code the first 2 days back from the break. We will make sure we have one version that we will continue working on from.]]></notes>
+            </task>
+        </task>
+        <task id="23" name="Development" color="#00ff00" meeting="false" start="2017-12-20" duration="18" complete="0" expand="true">
+            <task id="27" name="Create Basic Classes" color="#66ff66" meeting="false" start="2017-12-20" duration="3" complete="0" expand="true">
+                <notes><![CDATA[We will both work on creating the basic classes needed for this game to run. We will discuss the general format of classes, and what methods/algorithms will go in each. ]]></notes>
+            </task>
+            <task id="36" name="Create Piece Classes" color="#66ff66" meeting="false" start="2017-12-22" duration="6" complete="0" expand="true">
+                <notes><![CDATA[We will both work on creating the classes for each piece. Each piece should be able to move different than others, and we will split them up accordingly. We will create methods that will be called from the main class, for checking how the piece can move. ]]></notes>
+            </task>
+            <task id="40" name="Implement GUI to Pieces" color="#66ff66" meeting="false" start="2017-12-27" duration="3" complete="0" expand="true">
+                <notes><![CDATA[Jolene will work on implementing the mouse and GUI will how the pieces can move.]]></notes>
+            </task>
+            <task id="43" name="Checking for Win" color="#66ff66" meeting="false" start="2017-12-29" duration="2" complete="0" expand="true">
+                <notes><![CDATA[Jessica will work on a method that checks for when the user wins the game. This method should be in the main class.]]></notes>
+            </task>
+            <task id="46" name="Checking For Collision" color="#66ff66" meeting="false" start="2018-01-02" duration="4" complete="0" expand="true">
+                <notes><![CDATA[We will both work on further implementing the piece movement onto the game board. Jolene will create a method that checks for the collision between 2 pieces, and Jessica will work on making sure the pieces can actually move there by calling the methods previously made.]]></notes>
+            </task>
+            <task id="50" name="Piece Movement" color="#66ff66" meeting="false" start="2018-01-05" duration="4" complete="0" expand="true">
+                <notes><![CDATA[Jolene will work on matching the mouse click with how the pieces will move on the board. ]]></notes>
+            </task>
+            <task id="62" name="Details" color="#66ff66" meeting="false" start="2018-01-10" duration="3" complete="0" expand="true">
+                <notes><![CDATA[Jolene will work on completing the following
+1. Display the number of moves (Jolene)
+2. Display if the move is invalid (piece just bounces back to original place) (Jolene)]]></notes>
+            </task>
+            <task id="64" name="Details" color="#66ff66" meeting="false" start="2018-01-10" duration="3" complete="0" expand="true">
+                <notes><![CDATA[Jessica will work on:
+1. Display high score page (Jessica)
+2. Display when user wins (Jessica)]]></notes>
+            </task>
+            <task id="77" name="Finalizing Functions" color="#66ff66" meeting="false" start="2018-01-11" duration="2" complete="0" expand="true">
+                <notes><![CDATA[We will work on finalizing the game play. We will test out the game to see if we are missing any crucial functions. If a function is needed, we will work together to add it to the game.]]></notes>
+            </task>
+        </task>
+        <task id="25" name="Testing" color="#3399ff" meeting="false" start="2018-01-15" duration="6" complete="0" expand="true">
+            <task id="28" name="Debugging" color="#66ccff" meeting="false" start="2018-01-15" duration="5" complete="0" expand="true">
+                <notes><![CDATA[We will both work on debugging the code. When an error is found, we will get together and discuss how to go about fixing the error. We will lhave the rest of the time to debug, alongside with finalizing any final parts.]]></notes>
+            </task>
+            <task id="74" name="Finalizing" color="#66ccff" meeting="false" start="2018-01-15" duration="5" complete="0" expand="true">
+                <notes><![CDATA[We will work on finalizing any small touch ups needed, such as the layout of the instructions panel, high score frame, etc. This will only be related to the user interface (not game functions- this should have been done).]]></notes>
+            </task>
+            <task id="78" name="Submit" color="#66ccff" meeting="false" start="2018-01-22" duration="1" complete="0" expand="true">
+                <notes><![CDATA[This project will be submitted to the moodle, along with the gantt chart and work logs.]]></notes>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Jolene Zheng" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Jessica Zheng" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="78" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
